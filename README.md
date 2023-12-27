@@ -2,7 +2,7 @@
 
 # Introduction:
 
-The Dining Philosophers Problem is a classic synchronization challenge in computer science, designed to explore the intricacies of resource allocation and deadlock avoidance in a multi-threaded environment. This problem simulates a dining table with a fixed number of philosophers, each engaged in two activities: thinking and eating. To dine, a philosopher must acquire two adjacent forks. The challenge is to design a solution that ensures mutual exclusion, prevents deadlocks, and provides a fair opportunity for each philosopher to eat.
+This C code solves a modified dining philosophers problem using threads. It includes two bowls in addition to the original setup. Each philosopher, as a thread, eats and thinks, simulating time with sleep(). Mutexes and Conditional Variables prevent deadlocks.
 
 # Problem Description:
 
